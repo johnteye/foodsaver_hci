@@ -6,6 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import Home from './components/Home';
 import Signup from './components/Signup';
 import Recipe from './components/Recipe';
+import Login from './components/Login';
+import Journey from './components/journey';
+import Fin from './components/Fin';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -29,6 +33,22 @@ const router = createBrowserRouter([
     path: "recipe",
     element: <Recipe /> ,
   },
+
+  {
+    path: "login",
+    element: <Login /> ,
+  },
+  
+  {
+    path: "journey",
+    element: <Journey /> ,
+  },
+
+  {
+    path: "fin",
+    element: <Fin />,
+  },
+
 ]); 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

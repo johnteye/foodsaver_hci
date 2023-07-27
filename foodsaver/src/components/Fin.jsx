@@ -8,12 +8,14 @@ const Fin = () => {
           <div className="flex justify-between items-center relative top-5">
             <img src={Foodsaver} alt="Logo" className="left-5 w-[250px] relative "></img>
             <div className="flex gap-3 relative right-5">
+            <Link to = "/home">
             <button className="rounded-[5px] text-[20px] text-white w-[120px] h-[50px] bg-[#0A484E] relative">
                 Home
-              </button>
+              </button> </Link>
+              <Link to="/login">
               <button className="rounded-[5px] text-[20px] text-white w-[120px] h-[50px] bg-[#0A484E] relative">
                 Logout
-              </button>
+              </button></Link>
             </div>
         </div>
 

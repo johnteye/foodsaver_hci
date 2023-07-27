@@ -21,7 +21,8 @@ and Come on In</h1>
                 
               </form>
               <div className="text-[14px] flex gap-5 relative top-10">
-                <p className="text-[#0A484E]">Forgod Password?</p> <p>Already got an account ?<span className="text-[#0A484E]">Login</span></p>
+                
+                <p className="text-[#0A484E]">Forgod Password?</p> <p>Already got an account ?<Link to="/login"><span className="text-[#0A484E]">Login</span></Link></p>
               </div>
             <Link to="/home">  <button className="rounded-[5px] text-[20px] text-white top-[80px] w-[120px] h-[50px] bg-[#0A484E] relative">
                 Sign Up

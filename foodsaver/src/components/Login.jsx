@@ -1,5 +1,7 @@
 import React from 'react'
 import Foodsaver from '../foodsaver.png'
+import {Link } from 'react-router-dom';
+
 
 const Login = ()=>{
     return(
@@ -14,12 +16,12 @@ const Login = ()=>{
                 
               </form>
               <div className="text-[14px] flex gap-10 relative top-5">
-                <p className="text-[#0A484E]">Forgod Password?</p> <p>New User ?<span className="text-[#0A484E]">Signup</span></p>
+                <p className="text-[#0A484E]">Forgod Password?</p> <p>New User ?<Link to="/signup"><span className="text-[#0A484E]">Signup</span></Link></p>
               </div>
-
+              <Link to= "/home">
               <button className="rounded-[5px] text-[20px] top-[30px] text-white w-[120px] h-[50px] bg-[#0A484E] relative">
                 Login
-              </button>
+              </button></Link>
             </div>
         </div>
         </div>
