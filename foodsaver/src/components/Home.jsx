@@ -25,7 +25,7 @@ const Home = () =>{
 We're passionate about reducing food waste 
 and helping individuals and businesses save money
 while also doing their part to help the environment</p>
-                  <Link to ="/fin">  <button className="rounded-[5px] text-center text-[20px] text-white  w-[150px] h-[50px] bg-[#0A484E] relative">Get Started</button> </Link>
+                   <button className="rounded-[5px] text-center text-[20px] text-white  w-[150px] h-[50px] bg-[#0A484E] relative">Get Started</button> 
                 </div>
 
                 <div>
@@ -46,7 +46,7 @@ while also doing their part to help the environment</p>
                                     <h1 className="top-[-30px] relative text-[20px] underline">{titles[index]}</h1>
                                     <p className="w-[230px] text-white">{message[index]}</p>
                                     {index === 2 ?( 
-                                    <Link to="/recipe"> 
+                                    <Link to="/fin"> 
                                     <button className="rounded-[5px] top-[30px] text-[18px] text-white w-[150px] h-[50px] bg-[#0B835F] relative">{items[index]}</button>
                                     </Link>) : (<Link to="/journey"> 
                                     <button className="rounded-[5px] top-[30px] text-[18px] text-white w-[150px] h-[50px] bg-[#0B835F] relative">{items[index]}</button>

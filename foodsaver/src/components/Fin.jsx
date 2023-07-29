@@ -18,13 +18,13 @@ const Fin = () => {
               </button></Link>
             </div>
         </div>
-
+<Link to ="/recipe">
         <button className="w-[100px] rounded-[20px] h-[50px] bg-white relative top-[520px] left-[120px]"> More </button>
         <button className="w-[100px] rounded-[20px] h-[50px] bg-white relative top-[520px] left-[280px]"> More </button>
         <button className="w-[100px] rounded-[20px] h-[50px] bg-white relative top-[520px] left-[420px]"> More </button>
         <button className="w-[100px] rounded-[20px] h-[50px] bg-white relative top-[520px] left-[570px]"> More </button>
         <button className="w-[100px] rounded-[20px] h-[50px] bg-white relative top-[520px] left-[720px]"> More </button>
-    </div>
+    </div> </Link>
   )
 }
 
