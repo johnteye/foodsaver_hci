@@ -26,7 +26,7 @@ We're passionate about reducing food waste
 and helping individuals and businesses save money
 while also doing their part to help the environment</p>
 
-                   <button className="rounded-[5.5px] text-center text-[20px] text-white  w-[150px] h-[50px] bg-[#0A484E] relative">Get Started</button> 
+                   <button className="rounded-[5px] text-center text-[20px] text-white  w-[150px] h-[50px] bg-[#0A484E] relative">Get Started</button> 
                 </div>
 
                 <div>
