@@ -23,8 +23,8 @@ const Fin = () => {
         <button className="w-[100px] rounded-[20px] h-[50px] bg-white relative top-[520px] left-[280px]"> More </button>
         <button className="w-[100px] rounded-[20px] h-[50px] bg-white relative top-[520px] left-[420px]"> More </button>
         <button className="w-[100px] rounded-[20px] h-[50px] bg-white relative top-[520px] left-[570px]"> More </button>
-        <button className="w-[100px] rounded-[20px] h-[50px] bg-white relative top-[520px] left-[720px]"> More </button>
-    </div> </Link>
+        <button className="w-[100px] rounded-[20px] h-[50px] bg-white relative top-[520px] left-[720px]"> More </button> </Link>
+    </div> 
   )
 }
 
